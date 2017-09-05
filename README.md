@@ -33,4 +33,23 @@ jQueryLight is a lightweight JavaScript library inspired by jQuery. jQuery is wi
 
 - css(style, value) - it sets style property to selected elements.
 
-![gif_readme](https://github.com/newcoderua/jQueryLight/blob/master/images/gif%20(1).gif?raw=true)
+![gif_prototype](https://github.com/newcoderua/jQueryLight/blob/master/images/proto.gif?raw=true)
+
+## DOM Traversal
+
+- children() - returns a DOMNodeCollection of all direct children of every selected element.
+
+- parent() - returns a DOMNodeCollection containing the parent nodes of every selected element.
+
+- find(selector) - returns all elements matching the CSS selector argument.
+
+## Event Listeners
+
+- on(event, func) - Adds event handler to nodes
+
+- off(event) - Removes event handler from all nodes
+
+
+## AJAX Requests
+
+- $l.ajax({ options }) sends an XMLHttpRequest using passed in options object. Also use default values for request (weather in London)
