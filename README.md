@@ -32,3 +32,5 @@ jQueryLight is a lightweight JavaScript library inspired by jQuery. jQuery is wi
 - removeClass(class) - Removes class from all the nodes
 
 - css(style, value) - it sets style property to selected elements.
+
+![gif_readme](https://github.com/newcoderua/jQueryLight/blob/master/images/gif%20(1).gif?raw=true)
