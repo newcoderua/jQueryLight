@@ -55,3 +55,11 @@ jQueryLight is a lightweight JavaScript library inspired by jQuery. jQuery is wi
 - $l.ajax({ options }) sends an XMLHttpRequest using passed in options object. Also use default values for request (weather in London)
 
 ![ajax](https://github.com/newcoderua/jQueryLight/blob/master/images/ajax-request.png?raw=true)
+
+## How to use this jQueryLight
+1. Clone or download repo
+2. Navigate to the folder then to the lib folder.
+3. Copy dom_node_collection.js and main.js and paste it into javascript folder in your project.
+4. Before use in main.js file get rid of very first line, in dom_node_collection - delete last line(module.exports).
+5. Make sure that your webpack for project is watching.
+6. Use $l is dev console of your project.
