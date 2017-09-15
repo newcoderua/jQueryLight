@@ -1,0 +1,96 @@
+html {
+  font-size: 25px;
+  background: lightyellow;
+  height: 800px;
+}
+
+form {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+::-webkit-input-placeholder {
+  font-size: 17px;
+  color: lightgrey;
+}
+
+.img-gif {
+  width: 80%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.left-main-class {
+  width: 33%;
+  top: 20px;
+  bottom:0px;
+  right: 67%;
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 30px;
+}
+
+#like-gifs {
+  width: 33%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#dislike-gifs {
+  width: 33%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+
+  border-radius: 10px;
+}
+
+#liked-header {
+  background-color: lightgreen;
+  border-radius: 10px;
+  height: 100px;
+  padding: 30px;
+  font-size: 35px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+
+#disliked-header {
+  background-color: #f66262;
+  border-radius: 10px;
+  height: 100px;
+  padding: 30px;
+  font-size: 35px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+
+input {
+  font-size: 40px;
+}
+
+
+ul > li > button {
+  font-size: 25px;
+  background-color: yellow;
+}

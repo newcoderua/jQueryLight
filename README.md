@@ -3,6 +3,7 @@
 jQueryLight is a lightweight JavaScript library inspired by jQuery. jQuery is widely used for making AJAX requests, handling events, manipulating the DOM, and guaranteeing it works across browsers. jQueryLight mimics most of this functionality using the native DOM API that is built right in to every browser.
 
 
+
 ## Features
 
 - Select html elements by id, class or tag
@@ -33,7 +34,7 @@ jQueryLight is a lightweight JavaScript library inspired by jQuery. jQuery is wi
 
 - css(style, value) - it sets style property to selected elements.
 
-![gif_prototype](https://github.com/newcoderua/jQueryLight/blob/master/images/proto.gif?raw=true)
+![gif_prototype](https://gifs.com/gif/112-MjYMn1)
 
 ## DOM Traversal
 
@@ -59,7 +60,5 @@ jQueryLight is a lightweight JavaScript library inspired by jQuery. jQuery is wi
 ## How to use this jQueryLight
 1. Clone or download repo
 2. Navigate to the folder then to the lib folder.
-3. Copy dom_node_collection.js and main.js and paste it into javascript folder in your project.
-4. Before use in main.js file get rid of very first line, in dom_node_collection - delete last line(module.exports).
-5. Make sure that your webpack for project is watching.
-6. Use $l is dev console of your project.
+3. Copy main.js and paste it into javascript folder in your project.
+4. Use $l in dev console of your project.

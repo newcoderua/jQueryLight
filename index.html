@@ -2,34 +2,79 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="./lib/jquery_light.js">
+    <script type="text/javascript" src="./lib/main.js">    </script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      function deleteGif(id) {
+        if ($l(`li#${id.id}`).array.length === 0) {
+          $l(`li#${id}`).remove();
+        } else {
+          $l(`li#${id.id}`).remove();
+        }
+      }
 
+      function likeGif(id) {
+        var src;
+        if ($l(`li#${id.id}`).children()[0] === undefined) {
+          src = $l(`li#${id[0].id}`).children()[0].src;
+        } else {
+          src = $l(`li#${id.id}`).children()[0].src;
+        }
+        $l(`ul#ul-liked`).append(`<li><img src="${src}"></li>`);
+        if (id.id === undefined) {
+          deleteGif(`${id[0].id}`);
+        } else {
+          deleteGif(`${id.id}`);
+        }
+      }
+
+      function dislikeGif(id) {
+        var src;
+        if ($l(`li#${id.id}`).children()[0] === undefined) {
+          src = $l(`li#${id[0].id}`).children()[0].src;
+        } else {
+          src = $l(`li#${id.id}`).children()[0].src;
+        }
+        $l(`ul#ul-disliked`).append(`<li><img src="${src}"></li>`);
+        if (id.id === undefined) {
+          deleteGif(`${id[0].id}`);
+        } else {
+          deleteGif(`${id.id}`);
+        }
+      }
     </script>
-    <title>Hello, World</title>
+
+    <link rel="stylesheet" href="./dogs.css">
+    <title>Gifs, Gifs, Gifs</title>
   </head>
   <body>
+    <div class="main">
 
-    <div class="divOne" id="thisDiv">
-      <p>hey1</p>
-      <p>hey2</p>
-      <p>hey3</p>
-      THIS IS A DIV
-    </div>
-
-    <ul checked="checked">
-      <li checked="checked">item1
-        <div class="">
-          grandChild1
+      <div class="left-main-class">
+        <div id='all-dogs'>
+          <form>
+            <label>Check TOP-100 GIFS OF THE DAY</label>
+            <input id="textarea" type="textarea" placeholder="ex.(funny cats)">
+            <input type="submit" id="button" value="DOUBLE CLICK PLEASE">
+          </form>
         </div>
-      </li>
-      <li checked="checked">item2
-        <div class="">
-          grandChild2
+        <div class="divOne" id="thisDiv">
+          <ul id="main">
+          </ul>
         </div>
-      </li>
-      <li>item3</li>
-    </ul>
+      </div>
 
+        <div id='like-gifs'>
+          <p id="liked-header">Gifs that you like</p>
+          <ul id='ul-liked'>
+          </ul>
+        </div>
+
+        <div id='dislike-gifs'>
+          <p id="disliked-header">Gifs that you do not like</p>
+          <ul id='ul-disliked'>
+          </ul>
+        </div>
+  </div>
   </body>
 </html>
