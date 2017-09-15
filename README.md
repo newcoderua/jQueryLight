@@ -55,7 +55,7 @@ jQueryLight is a lightweight JavaScript library inspired by jQuery. jQuery is wi
 
 - $l.ajax({ options }) sends an XMLHttpRequest using passed in options object. Also use default values for request (weather in London)
 
-![ajax](https://github.com/newcoderua/jQueryLight/blob/master/images/ajax-request.png?raw=true)
+![ajax](/Users/vladyslavstadnyk/Desktop/jQueryLight/images/gif.gif)
 
 ## How to use this jQueryLight
 1. Clone or download repo
