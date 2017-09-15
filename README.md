@@ -34,7 +34,6 @@ jQueryLight is a lightweight JavaScript library inspired by jQuery. jQuery is wi
 
 - css(style, value) - it sets style property to selected elements.
 
-![gif_prototype](https://gifs.com/gif/112-MjYMn1)
 
 ## DOM Traversal
 
@@ -53,9 +52,9 @@ jQueryLight is a lightweight JavaScript library inspired by jQuery. jQuery is wi
 
 ## AJAX Requests
 
-- $l.ajax({ options }) sends an XMLHttpRequest using passed in options object. Also use default values for request (weather in London)
+- $l.ajax({ options }) sends an XMLHttpRequest using passed in options object (all gifs I took from http://api.giphy.com/)
 
-![ajax](/Users/vladyslavstadnyk/Desktop/jQueryLight/images/gif.gif)
+![gif_prototype](https://github.com/newcoderua/jQueryLight/blob/master/images/gif.gif?raw=true)
 
 ## How to use this jQueryLight
 1. Clone or download repo
