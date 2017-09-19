@@ -1,5 +1,7 @@
 # jQueryLight
 
+[LiveDemo](http://www.vladstadnyk.us/jQueryLight)
+
 jQueryLight is a lightweight JavaScript library inspired by jQuery. jQuery is widely used for making AJAX requests, handling events, manipulating the DOM, and guaranteeing it works across browsers. jQueryLight mimics most of this functionality using the native DOM API that is built right in to every browser.
 
 
